@@ -1,0 +1,12 @@
+hosts:
+  - name: server1
+    host: 54.197.1.206
+    user: root
+    ssh_port: 22
+    manifest: manifests/site.yaml
+
+  - name: server2
+    host: 3.87.238.38
+    user: root
+    ssh_port: 22
+    manifest: manifests/site.yaml
